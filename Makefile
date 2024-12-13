@@ -16,10 +16,6 @@ endif
 # stage additional code for the build
 #
 staging ::
-	cp -rf .cache/$(BUNDLE)/lib/adafruit_connection_manager.mpy .staging/lib
-	cp -rf .cache/$(BUNDLE)/lib/adafruit_hashlib* .staging/lib
-	cp -rf .cache/$(BUNDLE)/lib/adafruit_ntp* .staging/lib
-	cp -rf .cache/$(BUNDLE)/lib/adafruit_requests* .staging/lib
 	cp -rf .cache/$(BUNDLE)/lib/adafruit_ticks* .staging/lib
 	cp -rf .cache/$(BUNDLE)/lib/asyncio* .staging/lib
 
